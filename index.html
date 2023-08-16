@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RUBICON WEBSITE</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('images/first pic .jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    header {
+      background-color: #333;
+      color: #ef2020;
+      padding: 10px 0;
+      text-align: right;
+    }
+
+  
+
+    nav {
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+     
+    
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: left;
+      gap: 30px;
+      display: inline-block;
+    }
+
+    nav a {
+      color: #fdfdfd;
+      text-decoration: none;
+      width: 200px;
+      height: 30px;
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+   
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+    }
+
+    #search-input {
+      padding: 5px;
+      margin-right: 10px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      margin: 20px;
+    }
+
+    #image {
+      max-width: 100%;
+      height: 400px;
+      margin-top: 20px;
+    }
+
+    #heading1 {
+      font-size: 55px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    #info {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 20px;
+    }
+
+    #contact-btn {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    #about-us {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    #about-text {
+      flex: 1;
+      padding: 0 20px;
+  
+    }
+
+    #about-image {
+      max-width: 100%;
+      height: auto;
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+  
+    <nav>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="our team.html">our team </a> 
+            <a href="file:///C:/Users/prabh/OneDrive/Desktop/final%20project/service.html">Services</a>
+            <a href="contact us.html">contact us</a> 
+          </div>
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search...">
+        <button id="search-btn">Search</button>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <h1 id="heading1">Welcome to Rubicon</h1>
+    <div id="info">
+      <p>Experience the thrill of luxury and performance.</p>
+      <button id="contact-btn">Contact Us</button>
+    </div>
+    <div id="about-us">
+      <div id="about-text">
+        <h2>About Us</h2>
+        <p>The Rubicon comes with a 1-inch lift over the Wrangler Sport and Sahara, and this one is another 2 inches higher than that.
+           There are not any low step rails, either, as that would defeat the purpose of having a lifted Wrangler (that is, better ground clearance for off-road obstacles). 
+           The upside is that you can roll over just about anything, and the higher seating position helps you see over surrounding traffic.</p>
+      </div>
+      <img id="about-image" src="images/1.jpeg" height="800" alt="Lamborghini Car">
+    </div>
+  </div>
+</body>
+</html>
